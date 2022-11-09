@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/c6/df/a2/c6dfa22150790c670c988c5196f6ba0e.gif);
+    background-size: cover;
+}
+
+.Button {
+    font-size: 5em;
+    color: aqua;
+    animation: spazzy 5s linear 0s infinite;
+    text-align: center;
+}
+
+@keyframes spazzy {
+    0% {
+        transform: translateY(0px);
+        color: aqua;
+        font-size: 5em;
+    }
+
+    25% {
+        transform: translateY(500px);
+        color: blueviolet;
+        font-size: 4em;
+    }
+    
+    50% {
+        transform: translateY(200px);
+        color: crimson;
+        font-size: 5em;
+    }
+    
+    75% {
+        transform: translateY(400px);
+        color: gold;
+        font-size: 4em;
+    }
+    100% {
+        transform: translateY(0px);
+        color: aqua;
+        font-size: 5em;
+    }
+}
